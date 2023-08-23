@@ -1,0 +1,24 @@
+Client-Server Architecture
+1. machines are expensive, applications are complex
+2. separate the application into two components
+3. expensive workload can be done on the server
+4. clients call servers to perform expensive tasks
+5. remote procedure call (RPC) was born
+
+Benefits of Client-Server Architecture
+1. servers has beefy hardware
+2. clients have commodity hardware
+3. clients can still perform lightweight tasks
+4. clients no longer require dependencies
+5. however, we need a communication model
+
+OSI (Open Systems Interconnection) Model
+- 7 layers each describe a specific networking component
+- layer 7 - application - HTTP/FTP/gRPC
+- layer 6 - presentation - encoding/serialization
+- layer 5 - session - connection establishment, TLS
+- layer 4 - transport - TCP/UDP
+- layer 3 - network - IP
+- layer 2 - data link - Frames, MAC address (Ethernet)
+- layer 1 - physical - electric signals, fiber or radio waves
+
